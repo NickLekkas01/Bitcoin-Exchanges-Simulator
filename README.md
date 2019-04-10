@@ -10,28 +10,28 @@ Running:
 Functions
 
 /requestTransaction senderWalletID receiverWalletID amount date time
-Create a transaction. Sender sends ammount money to receiver at date time 
+(Create a transaction. Sender sends ammount money to receiver at date time)
 
 /requestTransactions  senderWalletID receiverWalletID amount date time;                       
                       senderWalletID2 receiverWalletID2 amount2 date2 time2;
                        ...                       
                       senderWalletIDn receiverWalletIDn amountn daten timen;
-Create many transactions                     
+(Create many transactions)
                      
 /requestTransactions inputFile
-Create many transactions from file
+(Create many transactions from file)
 
 /findEarnings walletID [time1][year1][time2][year2]
-Find earnings of this wallet between this time
+(Find earnings of this wallet between this time)
 
 /findPayments walletID [time1][year1][time2][year2]
-Find payments of this wallet between this time
+(Find payments of this wallet between this time)
 
 /walletStatus walletID
-Current value of this wallet
+(Current value of this wallet)
 
 /bitCoinStatus bitCoinID
-Value of Bitcoin, number of transactions happened, unspent money
+(Value of Bitcoin, number of transactions happened, unspent money)
 
 /traceCoin bitCoinID
-Transactions happened in this bitcoin
+(Transactions happened in this bitcoin)
